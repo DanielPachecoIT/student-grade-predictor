@@ -43,7 +43,7 @@ processed_df = load_and_preprocess_data()
 
 @st.cache_resource
 def load_model():
-    return joblib.load("student_model.pkl")
+    return joblib.load("student_model_deploy.pkl")
 
 model = load_model()
 
